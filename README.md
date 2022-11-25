@@ -20,6 +20,14 @@ Synthesizer V Studio 用スクリプトです。
 「次のノートと繋げる」と同じような機能ですが、こちらはノート開始位置も変わります。選択したノートの長さと位置を変更し、前のノートとの隙間や重なりを除去します。
 
 
+## 歌詞を右(左)にずらす（Lyrics Shift Left|Right）
+- ファイル： LyricsShiftLeft.js / LyricsShiftRight.js
+- カテゴリ： ノート編集
+
+選択したノートの歌詞をひとつ右(もしくは左)にずらします。選択範囲もそれに合わせて変化します。ずれる先の歌詞は1個消え、後ろの歌詞は「-」になります。「a[iue]o」と選択して右にずらすと「a-[iue]」となります。
+
+
+
 ## 選択範囲から新規トラック（New Track With Selection）
 - ファイル： NewTrackWithSelection.js
 - カテゴリ： トラック
